@@ -1,0 +1,9 @@
+
+
+<suite name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="DataDriven.Testing.ReadExcel"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->
