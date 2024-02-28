@@ -4,6 +4,7 @@
   <test name="Test1">
     <classes>
       <class name="DataDriven.Testing.ReadExcel"/>
+      <class name="DataDriven.Testing.WriteToExcel"/>
     </classes>
   </test> <!-- Test1 -->
 </suite> <!-- Suite -->

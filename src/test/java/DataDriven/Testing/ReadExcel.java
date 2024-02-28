@@ -49,7 +49,7 @@ public class ReadExcel {
 			driver.findElement(By.xpath("//input[@id = 'pass']")).clear();
 			driver.findElement(By.xpath("//input[@id = 'pass']")).sendKeys(cell.getStringCellValue());
 
-			driver.close();
+
 		}
 
 	}
