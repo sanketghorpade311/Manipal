@@ -28,6 +28,7 @@ public class WriteToExcel {
 				"D:\\maven\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 		driver = new ChromeDriver();
+		
 		driver.get("https://www.facebook.com");
 		driver.manage().window().maximize();
 

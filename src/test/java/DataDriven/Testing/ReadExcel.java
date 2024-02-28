@@ -42,6 +42,8 @@ public class ReadExcel {
 			cell = sheet.getRow(i).getCell(0);
 			driver.findElement(By.xpath("//input[@name='email']")).clear();
 			driver.findElement(By.xpath("//input[@name='email']")).sendKeys(cell.getStringCellValue());
+			
+			System.out.println("Hello Github");
 
 			cell = sheet.getRow(i).getCell(1);
 			driver.findElement(By.xpath("//input[@id = 'pass']")).clear();
